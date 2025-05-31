@@ -1,0 +1,24 @@
+.title {
+    color: goldenrod;
+/*    font-family: "Eagle Lake", serif; */
+    justify-items: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+}
+
+.card {
+    padding: 30px;
+    background-color: lightsteelblue;
+    border-radius: 15px;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    color: goldenrod;
+    font-family: "Eagle Lake", serif;
+}
