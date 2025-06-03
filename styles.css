@@ -1,3 +1,9 @@
+body {
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .title {
     color: goldenrod;
 /*    font-family: "Eagle Lake", serif; */
@@ -6,21 +12,44 @@
 
 .content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2%;
-}
 
-.card {
-    padding: 30px;
-    background-color: lightsteelblue;
-    border-radius: 15px;
-    text-align: center;
+    div {
+        padding: 3%;
+        background-color: lightsteelblue;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 90%;
+
+        img {
+            justify-self: center;
+            padding: 1%;
+            border-radius: 15px;
+            outline: black solid 2px;
+        }
+    }
 }
 
 .expanded {
-     padding: 30px;
-     background-color: peachpuff;
-     border-radius: 15px;
+    scale: 1.2;
+    border: black solid 2px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: peachpuff;
+    border-radius: 15px;
+
+    img, p {
+        visibility: visible;
+    }
+}
+
+.regular {
+    img, p {
+        height: 1px;
+        visibility: hidden;
+
+    }
 }
 
 button {

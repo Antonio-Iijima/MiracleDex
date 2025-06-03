@@ -14,16 +14,21 @@ document.getElementById('load').addEventListener('click',  async () => {
 
         for (let i = 0; i < n; i++) {
             const card = document.createElement('div');
-            card.className = 'card';
-            card.textContent = `${post[i].title}, ${post[i].location}`;
+            card.className = 'regular';
+            card.innerHTML = "";
+            let entry = post[i];
+
+            card.innerHTML = `<h2>${entry.title}<br>A.D. ${entry.year}, ${entry.location}</h2>
+                              <img src="${entry.image}" alt="img${entry.id}">
+                              <h3>${entry.summary}</h3><p>Category: ${entry.category}<br>${entry.details}</p>`;
+
 
             // add listeners to expand active card using CSS
             card.addEventListener('mouseenter', async () => {
                 card.className = 'expanded';
             });
             card.addEventListener('mouseleave', async () => {
-                card.className = 'card';
-                card.textContent = `${post[i].title}, ${post[i].location}`;
+                card.className = 'regular';
             });
 
             // done
