@@ -1,20 +1,18 @@
 # MiracleDex
 
+MiracleDex is a website hosted on GitHub pages which displays information on various Catholic miracles from around the world and throughout history. It is designed to be a simple, accessible interface
+to interact with the beauty of God's interaction with the world.
+
 ---
 
 <img src="https://raw.githubusercontent.com/Antonio-Iijima/MiracleDex/refs/heads/main/logo.png" width=95%>
 
 ---
 
-## Overview
-
-MiracleDex is a website hosted on GitHub pages which displays information on various Catholic miracles from around the world and throughout history. It is designed to be a simple, accessible interface
-to interact with the beauty of God's interaction with the world.
-
 
 ## Access
 
-Link to the site (hosted on Github Pages): [MiracleDex](https://antonio-iijima.github.io/MiracleDex/).
+Link to the site: [MiracleDex](https://antonio-iijima.github.io/MiracleDex/).
 
 
 ## Contributing
