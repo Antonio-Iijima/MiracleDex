@@ -7,7 +7,8 @@ MiracleDex is a mobile-friendly, web-based application that presents a catalog o
 
 ## Overview
 
-MiracleDex is a website hosted on GitHub pages which displays information on various Catholic miracles from around the world and throughout history.
+MiracleDex is a website hosted on GitHub pages which displays information on various Catholic miracles from around the world and throughout history. It is designed to be a simple, accessible interface
+to interact with the beauty of God's interaction with the world.
 
 
 ## Access
