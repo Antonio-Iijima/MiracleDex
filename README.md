@@ -1,17 +1,17 @@
 # MiracleDex
-A mobile-friendly, web-based application that presents a catalog of real Catholic miracles — including Eucharistic miracles, Marian apparitions, incorruptible saints, and more.
+MiracleDex is a mobile-friendly, web-based application that presents a catalog of real Catholic miracles — including Eucharistic miracles, Marian apparitions, incorruptible saints, and more.
+
+
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Resources](#resources)
+- [Access](#access)
 - [License](#license)
 
 
-## Installation
+## Access
 
+Link to the site (hosted on Github Pages): [MiracleDex](https://antonio-iijima.github.io/MiracleDex/).
 
 ## Usage
 
