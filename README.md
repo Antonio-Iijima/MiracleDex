@@ -1,20 +1,18 @@
 # MiracleDex
 MiracleDex is a mobile-friendly, web-based application that presents a catalog of real Catholic miracles — including Eucharistic miracles, Marian apparitions, incorruptible saints, and more.
 
+<img src="https://raw.githubusercontent.com/Antonio-Iijima/MiracleDex/refs/heads/main/logo.png" width=95%>
 
+##
 
-## Table of Contents
+## Overview
 
-- [Access](#access)
-- [License](#license)
+MiracleDex is a website hosted on GitHub pages which displays information on various Catholic miracles from around the world and throughout history.
 
 
 ## Access
 
 Link to the site (hosted on Github Pages): [MiracleDex](https://antonio-iijima.github.io/MiracleDex/).
-
-## Usage
-
 
 
 ## Contributing
@@ -29,10 +27,6 @@ If you have ideas for interesting features, or you find a bugfix, feel free to:
 If you find a bug and just want to report it, please open an issue.
 
 
-## Resources
-
-
 ## License
-
 
 MiracleDex is licensed under a [GNU General Public License](https://github.com/Antonio-Iijima/alvin/blob/main/LICENSE).
