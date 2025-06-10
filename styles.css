@@ -1,60 +1,89 @@
 body {
-    font-family: "Eagle Lake", serif;
     font-weight: 400;
     font-style: normal;
-}
+    color: grey;
+    background-color: #2b2c30;
+    text-align: center;
+    max-width: 1280px;
+    justify-self:  center;
+    margin: auto;
 
-.title {
-    color: goldenrod;
-/*    font-family: "Eagle Lake", serif; */
-    justify-items: center;
-}
-
-.content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 2%;
-
-    div {
-        padding: 3%;
-        background-color: lightsteelblue;
-        border-radius: 15px;
-        text-align: center;
-        font-size: 90%;
-
-        img {
-            justify-self: center;
-            padding: 1%;
-            border-radius: 15px;
-            outline: black solid 2px;
-        }
+    h1 {
+        color: #f8efde;
     }
 }
 
-.expanded {
-    scale: 1.2;
-    border: black solid 2px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background-color: peachpuff;
-    border-radius: 15px;
-
-    img, p {
-        visibility: visible;
-    }
+.medieval {
+    font-family: "Eagle Lake", serif;
 }
 
-.regular {
-    img, p {
-        height: 1px;
-        visibility: hidden;
-
-    }
+.modern {
+    font-family: Centaur, serif;
 }
 
 button {
-    height: 50px;
-    width: 50px;
-    color: goldenrod;
     font-family: "Eagle Lake", serif;
+    background-color: #f8efde;
+    border-radius: 10px;
+    width: 30%;
+    align-self: center;
+    margin: 5%;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 2px 3px 8px black;
+}
+
+#load {
+    width: 7%;
+}
+
+.close {
+    float: right;
+    width: 10%;
+    height: auto;
+    font-size: 150%;
+    font-family: "Times New Roman", serif;
+}
+
+.content {
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 20px;
+    padding: 2%;
+
+    div {
+        background-color: #f8efde;
+        border-radius: 15px;
+        padding: 2%;
+    }
+}
+
+.modal {
+    font-size: 160%;
+    text-align: left;
+    padding: 2%;
+    outline: solid black 2px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 50%;
+    width: 50%;
+    height: auto;
+    box-shadow: black 2px 2px 2px;
+}
+
+.modal-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 480px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
 }
