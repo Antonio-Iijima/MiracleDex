@@ -68,6 +68,7 @@ document.getElementById('load').addEventListener('click',  async () => {
     n += 5;
 });
 
+// capitalize function because I wanted one for the categories
 function capitalize(string) {
     let capitalized = '';
     string.split(" ").forEach(s => {
